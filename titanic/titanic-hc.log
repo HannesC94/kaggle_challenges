@@ -1,0 +1,27 @@
+[{"stream_name":"stderr","time":14.366230199,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":14.366298044,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":14.366312985,"data":"  File \"/opt/conda/lib/python3.7/site-packages/papermill/execute.py\", line 122, in execute_notebook\n"}
+,{"stream_name":"stderr","time":14.3663232,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":14.366331509,"data":"  File \"/opt/conda/lib/python3.7/site-packages/papermill/execute.py\", line 234, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":14.366339014,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":14.366346195,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":14.366353464,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":14.366360753,"data":"Exception encountered at \"In [2]\":\n"}
+,{"stream_name":"stderr","time":14.366367585,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":14.366374843,"data":"NameError                                 Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":14.366382284,"data":"/tmp/ipykernel_19/2201492050.py in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":14.366389757,"data":"      1 # Import data\n"}
+,{"stream_name":"stderr","time":14.366396814,"data":"----\u003e 2 base_path = Path(\"/kaggle/input/titanic\")\n"}
+,{"stream_name":"stderr","time":14.366404704,"data":"      3 data_train = pd.read_csv(base_path / \"train.csv\" )\n"}
+,{"stream_name":"stderr","time":14.366412264,"data":"\n"}
+,{"stream_name":"stderr","time":14.366418675,"data":"NameError: name 'Path' is not defined\n"}
+,{"stream_name":"stderr","time":14.366426137,"data":"\n"}
+,{"stream_name":"stderr","time":17.593337513,"data":"/opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2758: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":17.593393496,"data":"  FutureWarning,\n"}
+,{"stream_name":"stderr","time":17.593401281,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":17.873951252,"data":"[NbConvertApp] Writing 6235 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":20.765908541,"data":"/opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2758: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":20.766045459,"data":"  FutureWarning,\n"}
+,{"stream_name":"stderr","time":20.766090872,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":21.567451402,"data":"[NbConvertApp] Writing 280109 bytes to __results__.html\n"}
+]
